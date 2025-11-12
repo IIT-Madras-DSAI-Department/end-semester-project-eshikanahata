@@ -18,10 +18,15 @@ This repository is the **starter** for your End Semester Project submission in G
 ## 📁 Repository Structure
 
 * Describe your repository structure here. Explain about overall code organization.
-algorithms.py : Data loading, processing and various implementations of models and ensembles from scratch trained and validated on the MNIST dataset.
-main.py : Loads final model used for classification from the algorithms.py file. To run this code, the train and test dataset must be in the same folder as the one this file is run in else the paths can be changed in the code itself.  
-report.pdf : A comprehensive summary of all models tried, system architecture details, hyperparameter tuning, final hyperparameters used, training time logging, system optimizations used and finally some observations/insights from the exercise.
-xgb_hyperparam_results.csv : contains hyperparameter combinations and results for each of them on xgboost. 
+  
+algorithms.py : Data loading, processing and various implementations of models and ensembles from scratch trained and validated on the MNIST dataset.  
+
+main.py : Loads final model used for classification from the algorithms.py file. To run this code, the train and test dataset must be in the same folder as the one this file is run in else the paths can be changed in the code itself.    
+
+report.pdf : A comprehensive summary of all models tried, system architecture details, hyperparameter tuning, final hyperparameters used, training time logging, system optimizations used and finally some observations/insights from the exercise.  
+
+xgb_hyperparam_results.csv : contains hyperparameter combinations and results for each of them on xgboost.   
+
 ---
 
 ## 📦 Installation & Dependencies
@@ -36,10 +41,10 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
-1. Make sure all files are in the same directory. 
-2. The dataset paths in main.py have been set to "MNIST_train.csv" and "MNIST_test.csv" , if required these can be changed at the top of the main.py code.
-3. The final trained model is imported from algorithms.py in main.py code, both files should be in same directory. 
+* Mention the instructions to run you .py files.  
+1. Make sure all files are in the same directory.   
+2. The dataset paths in main.py have been set to "MNIST_train.csv" and "MNIST_test.csv" , if required these can be changed at the top of the main.py code.  
+3. The final trained model is imported from algorithms.py in main.py code, both files should be in same directory.   
 ---
 
 ## You can further add your own sections/titles along with corresponding contents here:
